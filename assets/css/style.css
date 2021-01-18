@@ -1,0 +1,62 @@
+/* AUFGABE 1.1 */
+
+/* body{
+    margin: 0;
+    padding: 0;
+    background: url("https://unsplash.it/900") center/cover no-repeat;
+}
+
+section{
+    width: 100vw;
+    height: 10%;
+    background-color: rgba(68,68,68,.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-right: 5%;
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    padding-left: 5%;
+}
+
+ul li, h3{
+    display: inline-block;
+    color: azure;
+} */
+
+
+/* *    Aufgabe 2.1    Gallery */
+
+/* ?     WIE   kann ich das out of Parent bei Fensterverkleinerung und einer fixen Parent - width loesen? */
+
+/* ?      Angenommen Parent hat fix - width. Wie loese ich ueberlauf Problem bei vielen Elementen */
+
+section{
+    display:flex;
+    justify-content: space-between;
+    /* width: 700px;*/
+    height: 700px; 
+    align-items: flex-start ;
+    flex-wrap: wrap;
+    border: 2px black solid;
+}
+
+img{
+    /* flex-grow: 1; */
+    /* flex-basis: 20%; */
+     padding: 3px; 
+    /* width: 20vw; */
+    /* width: 20%; */
+}
